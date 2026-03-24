@@ -130,7 +130,7 @@ devtrack/
 
 ---
 
-## 🧪 Sample Request
+##  Sample Request
 POST /api/issues/
 
 
