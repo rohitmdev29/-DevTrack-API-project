@@ -88,7 +88,7 @@ devtrack/
   - `LowPriorityIssue`
 
 - **Polymorphism**
-- 'issue.describe()'
+   - issue.describe()
 
 ---
 
@@ -152,3 +152,23 @@ Sample Response
   "priority": "critical",
   "message": "[URGENT] Login button not working on mobile — needs immediate attention"
 }
+---
+ ##  How to Run
+
+1. Clone the repository  
+```bash
+git clone <your-repo-link>
+cd devtrack
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run the server
+python manage.py runserver
+
+4.  Open in browser or Postman
+http://127.0.0.1:8000/api/issues/
+
+5.  Make sure these files exist:
+issues.json
+reporters.json
